@@ -1,8 +1,9 @@
 .dial{
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     justify-items: center;
     grid-gap: 15px 10px;
+    
 }
 
 .dial__symbol{

@@ -1,6 +1,6 @@
 .dialAdress {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     padding: 30px 0;
     justify-items: center;
     grid-gap:10px;
