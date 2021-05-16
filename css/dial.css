@@ -1,0 +1,12 @@
+.dial{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    grid-gap: 15px 10px;
+}
+
+.dial__symbol{
+ border: 2px solid green;
+ width: 30px;
+ height: 30px;
+}

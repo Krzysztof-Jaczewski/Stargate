@@ -1,0 +1,13 @@
+.dialAdress {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 30px 0;
+    justify-items: center;
+    grid-gap:10px;
+}
+
+.dialAdress__symbol {
+    border: 2px solid red;
+    width: 30px;
+    height: 30px;
+}

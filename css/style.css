@@ -1,12 +1,18 @@
-html{
+html {
     box-sizing: border-box;
 }
 
-*,::after,::before{
+*, ::after, ::before {
     box-sizing: inherit;
     margin: 0;
 }
 
-button{
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
     cursor: pointer;
 }
