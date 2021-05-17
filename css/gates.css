@@ -2,14 +2,18 @@
     position: relative;
 }
 
-.gates__symbols{
+.gates__chevrons{
+    width: 400px;
+    height: 400px;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     justify-items: center;  
     grid-gap: 15px 10px;
+    position: relative;
 }
 
-.gates__symbol{
+.gates__chevron{
+    position: absolute;
     border-top: 30px solid grey;
     border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
